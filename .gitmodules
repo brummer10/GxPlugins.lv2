@@ -1,0 +1,42 @@
+[submodule "GxBottleRocket.lv2"]
+	path = GxBottleRocket.lv2
+	url = https://github.com/brummer10/GxBottleRocket.lv2
+[submodule "GxHotBox.lv2"]
+	path = GxHotBox.lv2
+	url = https://github.com/brummer10/GxHotBox.lv2
+[submodule "GxVBassPreAmp.lv2"]
+	path = GxVBassPreAmp.lv2
+	url = https://github.com/brummer10/GxVBassPreAmp.lv2
+[submodule "GxSuppaToneBender.lv2"]
+	path = GxSuppaToneBender.lv2
+	url = https://github.com/brummer10/GxSuppaToneBender.lv2
+[submodule "GxHyperion.lv2"]
+	path = GxHyperion.lv2
+	url = https://github.com/brummer10/GxHyperion.lv2
+[submodule "GxVoodoFuzz.lv2"]
+	path = GxVoodoFuzz.lv2
+	url = https://github.com/brummer10/GxVoodoFuzz.lv2
+[submodule "GxSaturator.lv2"]
+	path = GxSaturator.lv2
+	url = https://github.com/brummer10/GxSaturator.lv2
+[submodule "GxVintageFuzzMaster.lv2"]
+	path = GxVintageFuzzMaster.lv2
+	url = https://github.com/brummer10/GxVintageFuzzMaster.lv2
+[submodule "GxSuperFuzz.lv2"]
+	path = GxSuperFuzz.lv2
+	url = https://github.com/brummer10/GxSuperFuzz.lv2
+[submodule "GxVmk2.lv2"]
+	path = GxVmk2.lv2
+	url = https://github.com/brummer10/GxVmk2.lv2
+[submodule "GxUVox720k.lv2"]
+	path = GxUVox720k.lv2
+	url = https://github.com/brummer10/GxUVox720k.lv2
+[submodule "GxSlowGear.lv2"]
+	path = GxSlowGear.lv2
+	url = https://github.com/brummer10/GxSlowGear.lv2
+[submodule "GxGuvnor.lv2"]
+	path = GxGuvnor.lv2
+	url = https://github.com/brummer10/GxGuvnor.lv2
+[submodule "GxToneMachine.lv2"]
+	path = GxToneMachine.lv2
+	url = https://github.com/brummer10/GxToneMachine.lv2
