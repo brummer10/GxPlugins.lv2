@@ -35,7 +35,9 @@ make will simply fail when one of those packages isn't found.
 ## BUILD 
 
 $ git submodule init
+
 $ git submodule update
+
 $ make install
 
 will install into ~/.lv2
