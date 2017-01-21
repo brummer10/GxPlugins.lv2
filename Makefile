@@ -1,5 +1,6 @@
 
 SUBDIR := $(wildcard */)
+SUBDIR := $(filter-out  debian/, $(SUBDIR))
 
 .PHONY: $(SUBDIR) recurse
 
