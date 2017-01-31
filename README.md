@@ -31,6 +31,8 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxGuvnor](https://raw.githubusercontent.com/brummer10/GxGuvnor.lv2/master/GxGuvnor.png)
 ###### GxToneMachine.lv2
 ![GxToneMachine](https://raw.githubusercontent.com/brummer10/GxToneMachine.lv2/master/GxToneMachine.png)
+###### GxSD1.lv2.lv2
+![GxSD1](https://github.com/brummer10/GxSD1.lv2/raw/master/GxSD1.png)
 
 
 ###### BUILD DEPENDENCY’S 
