@@ -40,3 +40,6 @@
 [submodule "GxToneMachine.lv2"]
 	path = GxToneMachine.lv2
 	url = https://github.com/brummer10/GxToneMachine.lv2
+[submodule "GxSD1.lv2"]
+	path = GxSD1.lv2
+	url = https://github.com/brummer10/GxSD1.lv2
