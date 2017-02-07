@@ -54,6 +54,8 @@ $ git submodule init
 
 $ git submodule update
 
+$ make
+
 $ make install
 
 will install into ~/.lv2
