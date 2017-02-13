@@ -43,3 +43,6 @@
 [submodule "GxSD1.lv2"]
 	path = GxSD1.lv2
 	url = https://github.com/brummer10/GxSD1.lv2
+[submodule "GxQuack.lv2"]
+	path = GxQuack.lv2
+	url = https://github.com/brummer10/GxQuack.lv2
