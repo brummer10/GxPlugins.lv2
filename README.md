@@ -65,6 +65,12 @@ $ sudo make install
 
 will install into /usr/lib/lv2
 
+## Debian
+
+You could build a debian package directly with the following command:
+
+$ dpkg-buildpackage -rfakeroot -uc -us -b
+
 (*) Other product names modeled in this software are trademarks 
 of their respective companies that do not endorse and are not associated 
 or affiliated with this simulation. 
