@@ -1,0 +1,13 @@
+Source: gxplugins
+Section: unknown
+Priority: optional
+Maintainer: hermann <brummer@web.de>
+Build-Depends: debhelper, libc6 , libcairo2 , libgcc1 , libgdk-pixbuf2.0-0 , libglib2.0-0 , libgtk2.0-0 , libpango-1.0-0 , libstdc++6 
+Standards-Version: 3.9.8
+Homepage: <https://github.com/brummer10/GxPlugins.lv2>
+
+Package: gxplugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <A set of extra lv2 plugins from the guitarix project.>
+ <A set of extra lv2 plugins from the guitarix project.>
