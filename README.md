@@ -37,6 +37,8 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxSD2Lead](https://github.com/brummer10/GxSD2Lead.lv2/raw/master/GxSD2Lead.png)
 ###### GxQuack.lv2
 ![GxQuack](https://raw.githubusercontent.com/brummer10/GxQuack.lv2/master/GxQuack.png)
+###### GxSVT.lv2
+![GxSVT](https://raw.githubusercontent.com/brummer10/GxSVT.lv2/master/GxSVT.png)
 
 ###### BUILD DEPENDENCY’S 
 

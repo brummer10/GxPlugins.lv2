@@ -49,3 +49,6 @@
 [submodule "GxSD2Lead.lv2"]
 	path = GxSD2Lead.lv2
 	url = https://github.com/brummer10/GxSD2Lead.lv2
+[submodule "GxSVT.lv2"]
+	path = GxSVT.lv2
+	url = https://github.com/brummer10/GxSVT.lv2
