@@ -39,6 +39,8 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxQuack](https://raw.githubusercontent.com/brummer10/GxQuack.lv2/master/GxQuack.png)
 ###### GxSVT.lv2
 ![GxSVT](https://raw.githubusercontent.com/brummer10/GxSVT.lv2/master/GxSVT.png)
+###### GxHeathkit.lv2
+![GxHeathkit](https://raw.githubusercontent.com/brummer10/GxHeathkit.lv2/master/GxHeathkit.png)
 
 ###### BUILD DEPENDENCY’S 
 
