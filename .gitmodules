@@ -52,3 +52,6 @@
 [submodule "GxSVT.lv2"]
 	path = GxSVT.lv2
 	url = https://github.com/brummer10/GxSVT.lv2
+[submodule "GxHeathkit.lv2"]
+	path = GxHeathkit.lv2
+	url = https://github.com/brummer10/GxHeathkit.lv2
