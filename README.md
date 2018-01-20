@@ -41,6 +41,8 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxSVT](https://raw.githubusercontent.com/brummer10/GxSVT.lv2/master/GxSVT.png)
 ###### GxHeathkit.lv2
 ![GxHeathkit](https://raw.githubusercontent.com/brummer10/GxHeathkit.lv2/master/GxHeathkit.png)
+###### GxFz1b.lv2
+![GxFz1b](https://raw.githubusercontent.com/brummer10/GxFz1b.lv2/master/GxFz1b.png)
 
 ###### BUILD DEPENDENCY’S 
 
