@@ -61,3 +61,6 @@
 [submodule "GxFz1s.lv2"]
 	path = GxFz1s.lv2
 	url = https://github.com/brummer10/GxFz1s.lv2
+[submodule "GxKnightFuzz.lv2"]
+	path = GxKnightFuzz.lv2
+	url = https://github.com/brummer10/GxKnightFuzz.lv2
