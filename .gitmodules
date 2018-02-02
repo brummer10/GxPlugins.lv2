@@ -55,12 +55,6 @@
 [submodule "GxHeathkit.lv2"]
 	path = GxHeathkit.lv2
 	url = https://github.com/brummer10/GxHeathkit.lv2
-[submodule "GxFz1b.lv2"]
-	path = GxFz1b.lv2
-	url = https://github.com/brummer10/GxFz1b.lv2
-[submodule "GxFz1s.lv2"]
-	path = GxFz1s.lv2
-	url = https://github.com/brummer10/GxFz1s.lv2
 [submodule "GxKnightFuzz.lv2"]
 	path = GxKnightFuzz.lv2
 	url = https://github.com/brummer10/GxKnightFuzz.lv2
