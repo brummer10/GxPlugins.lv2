@@ -64,3 +64,9 @@
 [submodule "GxFz1s.lv2"]
 	path = GxFz1s.lv2
 	url = https://github.com/brummer10/GxFz1s.lv2
+[submodule "GxAxisFace.lv2"]
+	path = GxAxisFace.lv2
+	url = https://github.com/brummer10/GxAxisFace.lv2
+[submodule "GxSunFace.lv2"]
+	path = GxSunFace.lv2
+	url = https://github.com/brummer10/GxSunFace.lv2

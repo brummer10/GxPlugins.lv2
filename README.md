@@ -47,6 +47,10 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxFz1b](https://raw.githubusercontent.com/brummer10/GxFz1b.lv2/master/GxFz1b.png)
 ###### GxFz1s.lv2
 ![GxFz1s](https://raw.githubusercontent.com/brummer10/GxFz1s.lv2/master/GxFz1s.png)
+###### GxAxisFace.lv2
+![GxAxisFace](https://raw.githubusercontent.com/brummer10/GxAxisFace.lv2/master/GxAxisFace.png)
+###### GxSunFace.lv2
+![GxSunFace](https://raw.githubusercontent.com/brummer10/GxSunFace.lv2/master/GxSunFace.png)
 
 ###### BUILD DEPENDENCY’S 
 
