@@ -51,6 +51,8 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxAxisFace](https://raw.githubusercontent.com/brummer10/GxAxisFace.lv2/master/GxAxisFace.png)
 ###### GxSunFace.lv2
 ![GxSunFace](https://raw.githubusercontent.com/brummer10/GxSunFace.lv2/master/GxSunFace.png)
+###### GxLiquidDrive.lv2
+![GxLiqidDrive](https://raw.githubusercontent.com/brummer10/GxLiquidDrive.lv2/master/GxLiquidDrive.png)
 
 ###### BUILD DEPENDENCY’S 
 

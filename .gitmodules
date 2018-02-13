@@ -70,3 +70,6 @@
 [submodule "GxSunFace.lv2"]
 	path = GxSunFace.lv2
 	url = https://github.com/brummer10/GxSunFace.lv2
+[submodule "GxLiquidDrive.lv2"]
+	path = GxLiquidDrive.lv2
+	url = https://github.com/brummer10/GxLiquidDrive.lv2
