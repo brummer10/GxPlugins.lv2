@@ -73,6 +73,6 @@
 [submodule "GxLiquidDrive.lv2"]
 	path = GxLiquidDrive.lv2
 	url = https://github.com/brummer10/GxLiquidDrive.lv2
-[submodule "GxDOD250.lv2"]
-	path = GxDOD250.lv2
-	url = https://github.com/brummer10/GxDOD250.lv2
+[submodule "GxDOP250.lv2"]
+	path = GxDOP250.lv2
+	url = https://github.com/brummer10/GxDOP250.lv2
