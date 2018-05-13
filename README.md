@@ -55,6 +55,10 @@ This repository contain the following extra GxPlugins as submodules.
 ![GxLiqidDrive](https://raw.githubusercontent.com/brummer10/GxLiquidDrive.lv2/master/GxLiquidDrive.png)
 ###### GxDOP250.lv2
 ![GxDOP250](https://raw.githubusercontent.com/brummer10/GxDOP250.lv2/master/GxDOP250.png)
+###### GxTubeDistortion.lv2
+![GxTubeDistortion](https://raw.githubusercontent.com/brummer10/GxTubeDistortion.lv2/master/GxTubeDistortion.png)
+###### GxMicroAmp.lv2
+![GxMicroAmp](https://raw.githubusercontent.com/brummer10/GxMicroAmp.lv2/master/GxMicroAmp.png)
 
 ###### BUILD DEPENDENCY’S 
 

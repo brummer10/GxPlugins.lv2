@@ -76,3 +76,9 @@
 [submodule "GxDOP250.lv2"]
 	path = GxDOP250.lv2
 	url = https://github.com/brummer10/GxDOP250.lv2
+[submodule "GxTubeDistortion.lv2"]
+	path = GxTubeDistortion.lv2
+	url = https://github.com/brummer10/GxTubeDistortion.lv2
+[submodule "GxMicroAmp.lv2"]
+	path = GxMicroAmp.lv2
+	url = https://github.com/brummer10/GxMicroAmp.lv2
