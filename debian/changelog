@@ -1,3 +1,9 @@
+gxplugins (0.5) unstable; urgency=medium
+
+  * Switch to X11 based GUI's.
+
+ -- hermann <brummer@org>  Mon, 08 Oct 2018 06:05:53 +0200
+
 gxplugins (0.4) unstable; urgency=medium
 
   * Initial Release.
