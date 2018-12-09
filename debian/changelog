@@ -1,3 +1,9 @@
+gxplugins (0.6) unstable; urgency=medium
+
+  * small bug fixes in X11 based GUI's.
+
+ -- hermann <brummer@org>  Wed, 05 Dec 2018 04:05:53 +0200
+
 gxplugins (0.5) unstable; urgency=medium
 
   * Switch to X11 based GUI's.
