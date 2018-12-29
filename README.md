@@ -33,7 +33,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxVBassPreAmp.lv2 - A bass preamp
 * GxSVT.lv2 - Based on the [Ampeg SVT-CL Bass Head](https://ampeg.com/products/classic/svtcl/) 
 * GxVmk2.lv2 - Unknown... need input from brummer
-* GxUvox720k - Based on [Vox-style amps](https://www.voxamps.com), probably the ![JMI Vox UL730](http://www.voxshowroom.com/uk/amp/730.html)... need input from brummer
+* GxUvox720k - Based on [Vox-style amps](https://www.voxamps.com), probably the [JMI Vox UL730](http://www.voxshowroom.com/uk/amp/730.html)... need input from brummer
 
 #### Other
 * GxQuack.lv2 - Autowah
