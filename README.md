@@ -1,7 +1,70 @@
 # GxPlugins.lv2
-A set of extra lv2 plugins from the guitarix project.
+GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment the Guitarix project. Each plugin exists as its own submodule under this repository.
 
-This repository contain the following extra GxPlugins as submodules.
+## Plugin Summary
+
+#### Overdrive
+* GxBottleRocket.lv2 - Based on the ![Mesa V1 Bottle Rocket](http://mesaboogie.com/support/out-of-production/v-1-bottle-rocket.html) tube overdrive
+* GxDOP250.lv2 - Based on the ![Analog Man DOD OD-250 Yellow Overdrive](https://www.buyanalogman.com/DOD_OD_250_p/am-dod-250.htm)
+* GxGuvnor.lv2 - Based on the ![Marshall "The Guv'nor" Overdrive](https://marshall.com/marshall-amps/products/pedals/gv-2-guvnor-plus)
+* GxHotBox.lv2 - Based on the ![Matchless Hot Box](http://matchlessamplifiers.com/pedals/hotbox-iii) tube overdrive
+* GxSD1.lv2 - Based on the ![Boss SD-1 Super Overdrive](https://www.boss.info/us/products/sd-1/)
+* GxSD2Lead.lv2 - Based on the ![Boss SD-2 Dual Overdrive](http://www.bossarea.com/boss-sd-2-dual-overdrive/)
+
+#### Fuzz/Distortion
+* GxAxisFace.lv2 - Based on the ![Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php) fuzz
+* GxFz1b.lv2 - Based on the Robert Moog-designed ![Maestro FZ-1B](https://en.wikipedia.org/wiki/Maestro_FZ-1_Fuzz-Tone) fuzz
+* GxFz1s.lv2 - Based on the ![Maestro FZ-1S Super-Fuzz](https://en.wikipedia.org/wiki/Maestro_FZ-1_Fuzz-Tone)
+* GxHyperion.lv2 - Based on the Devi Ever FX Hyperion fuzz
+* GxHeathkit.lv2 - Based on the ![Heathkit TA-28](http://harmony.demont.net/heathkit.php) distortion/booster/fuzz
+* GxKnightFuzz.lv2 - Based on the ![Basic Audio Knight Fuzz](http://www.basicaudio.net/pedal-details.php?pedal=30) fuzz
+* GxLiquidDrive.lv2 - Based on the ![Liquid Drive](http://fuzzcentral.ssguitar.com/liquid.php) fuzz, a modified ![Ross Distortion](http://www.home-wrecker.com/ross.html)
+* GxSuppaToneBender.lv2 - Based on the ![Colorsound Supa Tonebender](https://en.wikipedia.org/wiki/Tone_Bender) which, in turn, is based on the ![Electro-Harmonix Big Muff π](https://en.wikipedia.org/wiki/Big_Muff)
+* GxSaturator.lv2 - Based on the Joe Satriani-specified ![Vox Satchurator](https://www.joesatrianiuniverse.com/gear/vox-js-pedals/satchurator/) distortion
+* GxSunFace.lv2 - Based on the ![Analog Man Sun Face](http://www.analogman.com/fuzzface.htm) fuzz
+* GxSuperFuzz.lv2 - Based on the ![Univox Super-Fuzz](https://en.wikipedia.org/wiki/Univox_Super-Fuzz)
+* GxToneMachine.lv2 - Based on the ![Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm) fuzz
+* GxTubeDistortion.lv2 - Unknown... need input from brummer
+* GxVintageFuzzMaster.lv2 - Based on the Devi Ever Vintage Fuzz Master
+* GxVoodoFuzz.lv2 - Unknown... (doesn't look much like a Joyo Voodoo Octave Fuzz)... need input from brummer
+
+#### Amplifiers
+* GxMicroAmp.lv2 - A simple booster 
+* GxVBassPreAmp.lv2 - A bass preamp
+* GxSVT.lv2 - 
+* GxVmk2.lv2 - Unknown... need input from brummer
+* GxUvox720k - Based on ![Vox-style amps](https://www.voxamps.com), probably the ![JMI Vox UL730](http://www.voxshowroom.com/uk/amp/730.html)... need input from brummer
+
+#### Other
+* GxQuack.lv2 - Autowah
+* GxSlowGear.lv2 - Based on the ![Boss Gx SlowGear](http://www.bossarea.com/boss-sg-1-slow-gear/), attack-smoothing, auto-swelling pedal of the early 80s
+
+###### Build and installation
+
+Dependencies:
+- libc6-dev
+- libcairo2-dev
+- libx11-dev
+- x11proto-dev
+- lv2-dev
+
+On Ubuntu/Debian: 
+```
+sudo apt install libc6-dev libcairo2-dev libx11-dev x11proto-dev lv2-dev
+```
+NOTE: These packages may have different names on different distributions. GxPlugins.lv2 has no configure script, so make will simply fail when one of these packages isn't found.
+
+## Build 
+
+```
+git submodule init
+git submodule update
+make
+make install # will install into ~/.lv2 ... AND/OR....
+sudo make install # will install into /usr/lib/lv2
+```
+
+## Images
 
 ###### GxBottleRocket.lv2
 ![GxBottleRocket](https://github.com/brummer10/GxBottleRocket.lv2/raw/master/GxBottleRocket.png)
@@ -60,43 +123,11 @@ This repository contain the following extra GxPlugins as submodules.
 ###### GxMicroAmp.lv2
 ![GxMicroAmp](https://raw.githubusercontent.com/brummer10/GxMicroAmp.lv2/master/GxMicroAmp.png)
 
-###### BUILD DEPENDENCY’S 
+## Debian package
 
-the following packages are needed to build the GxPlugs:
+You can build a Debian package directly with:
+```
+dpkg-buildpackage -rfakeroot -uc -us -b
+```
 
-- libc6-dev
-- libcairo2-dev
-- libx11-dev
-- x11proto-dev
-- lv2-dev
-
-note that those packages could have different, but similar names 
-on different distributions. There is no configure script, 
-make will simply fail when one of those packages isn't found.
-
-## BUILD 
-
-$ git submodule init
-
-$ git submodule update
-
-$ make
-
-$ make install
-
-will install into ~/.lv2
-
-$ sudo make install
-
-will install into /usr/lib/lv2
-
-## Debian
-
-You could build a debian package directly with the following command:
-
-$ dpkg-buildpackage -rfakeroot -uc -us -b
-
-(*) Other product names modeled in this software are trademarks 
-of their respective companies that do not endorse and are not associated 
-or affiliated with this simulation. 
-All other trademarks are the property of their respective holders.
+NOTE: Other product names modeled in this software are trademarks of their respective companies that do not endorse and are not associated or affiliated with this simulation. All other trademarks are the property of their respective holders.
