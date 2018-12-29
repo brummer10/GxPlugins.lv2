@@ -4,26 +4,26 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 ## Plugin Summary
 
 #### Overdrive
-* GxBottleRocket.lv2 - Based on the ![Mesa V1 Bottle Rocket](http://mesaboogie.com/support/out-of-production/v-1-bottle-rocket.html) tube overdrive
-* GxDOP250.lv2 - Based on the ![Analog Man DOD OD-250 Yellow Overdrive](https://www.buyanalogman.com/DOD_OD_250_p/am-dod-250.htm)
-* GxGuvnor.lv2 - Based on the ![Marshall "The Guv'nor" Overdrive](https://marshall.com/marshall-amps/products/pedals/gv-2-guvnor-plus)
-* GxHotBox.lv2 - Based on the ![Matchless Hot Box](http://matchlessamplifiers.com/pedals/hotbox-iii) tube overdrive
-* GxSD1.lv2 - Based on the ![Boss SD-1 Super Overdrive](https://www.boss.info/us/products/sd-1/)
-* GxSD2Lead.lv2 - Based on the ![Boss SD-2 Dual Overdrive](http://www.bossarea.com/boss-sd-2-dual-overdrive/)
+* GxBottleRocket.lv2 - Based on the [Mesa V1 Bottle Rocket](http://mesaboogie.com/support/out-of-production/v-1-bottle-rocket.html) tube overdrive
+* GxDOP250.lv2 - Based on the [Analog Man DOD OD-250 Yellow Overdrive](https://www.buyanalogman.com/DOD_OD_250_p/am-dod-250.htm)
+* GxGuvnor.lv2 - Based on the [Marshall "The Guv'nor" Overdrive](https://marshall.com/marshall-amps/products/pedals/gv-2-guvnor-plus)
+* GxHotBox.lv2 - Based on the [Matchless Hot Box](http://matchlessamplifiers.com/pedals/hotbox-iii) tube overdrive
+* GxSD1.lv2 - Based on the [Boss SD-1 Super Overdrive](https://www.boss.info/us/products/sd-1/)
+* GxSD2Lead.lv2 - Based on the [Boss SD-2 Dual Overdrive](http://www.bossarea.com/boss-sd-2-dual-overdrive/)
 
 #### Fuzz/Distortion
-* GxAxisFace.lv2 - Based on the ![Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php) fuzz
-* GxFz1b.lv2 - Based on the Robert Moog-designed ![Maestro FZ-1B](https://en.wikipedia.org/wiki/Maestro_FZ-1_Fuzz-Tone) fuzz
-* GxFz1s.lv2 - Based on the ![Maestro FZ-1S Super-Fuzz](https://en.wikipedia.org/wiki/Maestro_FZ-1_Fuzz-Tone)
+* GxAxisFace.lv2 - Based on the [Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php) fuzz
+* GxFz1b.lv2 - Based on the Robert Moog-designed [Maestro FZ-1B](https://en.wikipedia.org/wiki/Maestro_FZ-1_Fuzz-Tone) fuzz
+* GxFz1s.lv2 - Based on the [Maestro FZ-1S Super-Fuzz](https://en.wikipedia.org/wiki/Maestro_FZ-1_Fuzz-Tone)
 * GxHyperion.lv2 - Based on the Devi Ever FX Hyperion fuzz
-* GxHeathkit.lv2 - Based on the ![Heathkit TA-28](http://harmony.demont.net/heathkit.php) distortion/booster/fuzz
-* GxKnightFuzz.lv2 - Based on the ![Basic Audio Knight Fuzz](http://www.basicaudio.net/pedal-details.php?pedal=30) fuzz
-* GxLiquidDrive.lv2 - Based on the ![Liquid Drive](http://fuzzcentral.ssguitar.com/liquid.php) fuzz, a modified ![Ross Distortion](http://www.home-wrecker.com/ross.html)
-* GxSuppaToneBender.lv2 - Based on the ![Colorsound Supa Tonebender](https://en.wikipedia.org/wiki/Tone_Bender) which, in turn, is based on the ![Electro-Harmonix Big Muff π](https://en.wikipedia.org/wiki/Big_Muff)
-* GxSaturator.lv2 - Based on the Joe Satriani-specified ![Vox Satchurator](https://www.joesatrianiuniverse.com/gear/vox-js-pedals/satchurator/) distortion
-* GxSunFace.lv2 - Based on the ![Analog Man Sun Face](http://www.analogman.com/fuzzface.htm) fuzz
-* GxSuperFuzz.lv2 - Based on the ![Univox Super-Fuzz](https://en.wikipedia.org/wiki/Univox_Super-Fuzz)
-* GxToneMachine.lv2 - Based on the ![Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm) fuzz
+* GxHeathkit.lv2 - Based on the [Heathkit TA-28](http://harmony.demont.net/heathkit.php) distortion/booster/fuzz
+* GxKnightFuzz.lv2 - Based on the [Basic Audio Knight Fuzz](http://www.basicaudio.net/pedal-details.php?pedal=30) fuzz
+* GxLiquidDrive.lv2 - Based on the [Liquid Drive](http://fuzzcentral.ssguitar.com/liquid.php) fuzz, a modified ![Ross Distortion](http://www.home-wrecker.com/ross.html)
+* GxSuppaToneBender.lv2 - Based on the [Colorsound Supa Tonebender](https://en.wikipedia.org/wiki/Tone_Bender) which, in turn, is based on the [Electro-Harmonix Big Muff π](https://en.wikipedia.org/wiki/Big_Muff)
+* GxSaturator.lv2 - Based on the Joe Satriani-specified [Vox Satchurator](https://www.joesatrianiuniverse.com/gear/vox-js-pedals/satchurator/) distortion
+* GxSunFace.lv2 - Based on the [Analog Man Sun Face](http://www.analogman.com/fuzzface.htm) fuzz
+* GxSuperFuzz.lv2 - Based on the [Univox Super-Fuzz](https://en.wikipedia.org/wiki/Univox_Super-Fuzz)
+* GxToneMachine.lv2 - Based on the [Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm) fuzz
 * GxTubeDistortion.lv2 - Unknown... need input from brummer
 * GxVintageFuzzMaster.lv2 - Based on the Devi Ever Vintage Fuzz Master
 * GxVoodoFuzz.lv2 - Unknown... (doesn't look much like a Joyo Voodoo Octave Fuzz)... need input from brummer
@@ -31,13 +31,13 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 #### Amplifiers
 * GxMicroAmp.lv2 - A simple booster 
 * GxVBassPreAmp.lv2 - A bass preamp
-* GxSVT.lv2 - 
+* GxSVT.lv2 - Based on the [Ampeg SVT-CL Bass Head](https://ampeg.com/products/classic/svtcl/) 
 * GxVmk2.lv2 - Unknown... need input from brummer
-* GxUvox720k - Based on ![Vox-style amps](https://www.voxamps.com), probably the ![JMI Vox UL730](http://www.voxshowroom.com/uk/amp/730.html)... need input from brummer
+* GxUvox720k - Based on [Vox-style amps](https://www.voxamps.com), probably the ![JMI Vox UL730](http://www.voxshowroom.com/uk/amp/730.html)... need input from brummer
 
 #### Other
 * GxQuack.lv2 - Autowah
-* GxSlowGear.lv2 - Based on the ![Boss Gx SlowGear](http://www.bossarea.com/boss-sg-1-slow-gear/), attack-smoothing, auto-swelling pedal of the early 80s
+* GxSlowGear.lv2 - Based on the [Boss Gx SlowGear](http://www.bossarea.com/boss-sg-1-slow-gear/), attack-smoothing, auto-swelling pedal of the early 80s
 
 ###### Build and installation
 
