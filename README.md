@@ -4,6 +4,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 ## Plugin Summary
 
 ✝ = Includes master bypass
+
 &ast; = The product names modeled in this software are trademarks of their respective companies that do not endorse and are not associated or affiliated with this simulation. All trademarks are the property of their respective holders.
 
 #### Overdrive
