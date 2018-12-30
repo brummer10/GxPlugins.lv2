@@ -3,6 +3,8 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 
 ## Plugin Summary
 
+*Disclaimer* The product names modeled in this software are trademarks of their respective companies that do not endorse and are not associated or affiliated with this simulation. All trademarks are the property of their respective holders.
+
 #### Overdrive
 * GxBottleRocket.lv2 - Based on the [Mesa V1 Bottle Rocket](http://mesaboogie.com/support/out-of-production/v-1-bottle-rocket.html) tube overdrive
 * GxDOP250.lv2 - Based on the [Analog Man DOD OD-250 Yellow Overdrive](https://www.buyanalogman.com/DOD_OD_250_p/am-dod-250.htm)
@@ -24,15 +26,15 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxSunFace.lv2 - Based on the [Analog Man Sun Face](http://www.analogman.com/fuzzface.htm) fuzz
 * GxSuperFuzz.lv2 - Based on the [Univox Super-Fuzz](https://en.wikipedia.org/wiki/Univox_Super-Fuzz)
 * GxToneMachine.lv2 - Based on the [Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm) fuzz
-* GxTubeDistortion.lv2 - Unknown... need input from brummer
+* GxTubeDistortion.lv2 - Generic tube distortion based on http://www.montagar.com/~patj/tubedist.gif
 * GxVintageFuzzMaster.lv2 - Based on the Devi Ever Vintage Fuzz Master
-* GxVoodoFuzz.lv2 - Unknown... (doesn't look much like a Joyo Voodoo Octave Fuzz)... need input from brummer
+* GxVoodoFuzz.lv2 - Based on the [Voodoo Lab SuperFuzz](http://www.voodoolab.com/superfuzz.htm). It's basically a Bosstone circuit, followed by the tone control of the [Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm) in parralel with a [Devi Ever Dark Boost](https://reverb.com/p/devi-ever-fx-dark-boost).
 
 #### Amplifiers
 * GxMicroAmp.lv2 - A simple booster 
-* GxVBassPreAmp.lv2 - A bass preamp
+* GxVBassPreAmp.lv2 - Simulation of the 1984 [Vox Venue Bass 100 Pre Amp](https://www.korguk.com/voxcircuits/) section
 * GxSVT.lv2 - Based on the [Ampeg SVT-CL Bass Head](https://ampeg.com/products/classic/svtcl/) 
-* GxVmk2.lv2 - Unknown... need input from brummer
+* GxVmk2.lv2 - Based on Vox MKII solid state preamp of the late 60s
 * GxUvox720k - Based on [Vox-style amps](https://www.voxamps.com), probably the [JMI Vox UL730](http://www.voxshowroom.com/uk/amp/730.html)... need input from brummer
 
 #### Other
@@ -62,6 +64,12 @@ git submodule update
 make
 make install # will install into ~/.lv2 ... AND/OR....
 sudo make install # will install into /usr/lib/lv2
+```
+## Debian package
+
+You can build a Debian package directly with:
+```
+dpkg-buildpackage -rfakeroot -uc -us -b
 ```
 
 ## Images
@@ -122,12 +130,3 @@ sudo make install # will install into /usr/lib/lv2
 ![GxTubeDistortion](https://raw.githubusercontent.com/brummer10/GxTubeDistortion.lv2/master/GxTubeDistortion.png)
 ###### GxMicroAmp.lv2
 ![GxMicroAmp](https://raw.githubusercontent.com/brummer10/GxMicroAmp.lv2/master/GxMicroAmp.png)
-
-## Debian package
-
-You can build a Debian package directly with:
-```
-dpkg-buildpackage -rfakeroot -uc -us -b
-```
-
-NOTE: Other product names modeled in this software are trademarks of their respective companies that do not endorse and are not associated or affiliated with this simulation. All other trademarks are the property of their respective holders.
