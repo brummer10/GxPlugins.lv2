@@ -23,7 +23,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxHeathkit.lv2:electric_plug: - Based on the [Heathkit TA-28](http://harmony.demont.net/heathkit.php)&ast; distortion/booster/fuzz
 * GxKnightFuzz.lv2:electric_plug: - Based on the [Basic Audio Knight Fuzz](http://www.basicaudio.net/pedal-details.php?pedal=30)&ast; fuzz
 * GxLiquidDrive.lv2:electric_plug: - Based on the [Liquid Drive](http://fuzzcentral.ssguitar.com/liquid.php)&ast; fuzz, a modified [Ross Distortion](http://www.home-wrecker.com/ross.html)&ast;
-* GxSuppaToneBender.lv2 - Based on the [Colorsound Supa Tonebender](https://en.wikipedia.org/wiki/Tone_Bender)&ast; which, in turn, is based on the [Electro-Harmonix Big Muff π](https://en.wikipedia.org/wiki/Big_Muff)&ast;
+* GxSuppaToneBender.lv2 - Based on the [Vox Supa Tonebender](https://en.wikipedia.org/wiki/Tone_Bender)&ast;
 * GxSaturator.lv2 - Based on the Joe Satriani-specified [Vox Satchurator](https://www.joesatrianiuniverse.com/gear/vox-js-pedals/satchurator/)&ast; distortion
 * GxSunFace.lv2:electric_plug: - Based on the [Analog Man Sun Face](http://www.analogman.com/fuzzface.htm)&ast; fuzz
 * GxSuperFuzz.lv2 - Based on the [Univox Super-Fuzz](https://en.wikipedia.org/wiki/Univox_Super-Fuzz)&ast;
