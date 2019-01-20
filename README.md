@@ -14,6 +14,8 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxHotBox.lv2:electric_plug: - Based on the [Matchless Hot Box](http://matchlessamplifiers.com/pedals/hotbox-iii)&ast; tube overdrive
 * GxSD1.lv2:electric_plug: - Based on the [Boss SD-1 Super Overdrive](https://www.boss.info/us/products/sd-1/)&ast;
 * GxSD2Lead.lv2:electric_plug: - Based on the [Boss SD-2 Dual Overdrive](http://www.bossarea.com/boss-sd-2-dual-overdrive/)&ast;
+* GxValveCaster.lv2:electric_plug: - Based on the [Valve Caster](http://www.hgamps.com/valvecaster-tube-effect/)&ast;
+* GxBoobTube.lv2:electric_plug: - Based on the [Boob Tube](http://juansolo.mooo.com/stompage/btbuild.html)&ast;
 
 #### Fuzz/Distortion
 * GxAxisFace.lv2:electric_plug: - Based on the [Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php)&ast; fuzz
@@ -38,6 +40,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxSVT.lv2:electric_plug: - Based on the [Ampeg SVT-CL Bass Head](https://ampeg.com/products/classic/svtcl/)&ast; 
 * GxVmk2.lv2 - Based on Vox MKII&ast; solid state preamp of the late 60s
 * GxUvox720k - Based on [Univox 720k](http://www.vintageunivox.com/amps/uniamp.html) keyboard amp from 1978
+* GxCreamMachine - Based on different circuits &ast; Poweramp
 
 #### Other
 * GxQuack.lv2:electric_plug: - Autowah
@@ -132,3 +135,9 @@ dpkg-buildpackage -rfakeroot -uc -us -b
 ![GxTubeDistortion](https://raw.githubusercontent.com/brummer10/GxTubeDistortion.lv2/master/GxTubeDistortion.png)
 ###### GxMicroAmp.lv2
 ![GxMicroAmp](https://raw.githubusercontent.com/brummer10/GxMicroAmp.lv2/master/GxMicroAmp.png)
+###### GxCreamMachine.lv2
+![GxCreamMachine](https://raw.githubusercontent.com/brummer10/GxCreamMachine.lv2/master/GxCreamMachine.png)
+###### GxValveCaster.lv2
+![GxValveCaster](https://raw.githubusercontent.com/brummer10/GxValveCaster.lv2/master/GxValveCaster.png)
+###### GxBoobTube.lv2
+![GxBoobTube](https://raw.githubusercontent.com/brummer10/GxBoobTube.lv2/master/GxBoobTube.png)

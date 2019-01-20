@@ -82,3 +82,12 @@
 [submodule "GxMicroAmp.lv2"]
 	path = GxMicroAmp.lv2
 	url = https://github.com/brummer10/GxMicroAmp.lv2
+[submodule "GxCreamMachine.lv2"]
+	path = GxCreamMachine.lv2
+	url = https://github.com/brummer10/GxCreamMachine.lv2
+[submodule "GxBoobTube.lv2"]
+	path = GxBoobTube.lv2
+	url = https://github.com/brummer10/GxBoobTube.lv2
+[submodule "GxValveCaster.lv2"]
+	path = GxValveCaster.lv2
+	url = https://github.com/brummer10/GxValveCaster.lv2
