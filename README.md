@@ -16,6 +16,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxSD2Lead.lv2:electric_plug: - Based on the [Boss SD-2 Dual Overdrive](http://www.bossarea.com/boss-sd-2-dual-overdrive/)&ast;
 * GxValveCaster.lv2:electric_plug: - Based on the [Valve Caster](http://www.hgamps.com/valvecaster-tube-effect/)&ast;
 * GxBoobTube.lv2:electric_plug: - Based on the [Boob Tube](http://juansolo.mooo.com/stompage/btbuild.html)&ast;
+* GxShakaTube.lv2:electric_plug: - Based on the [ShakaTube](https://www.diystompboxes.com/pedals/schems/shakatube.gif)&ast;
 
 #### Fuzz/Distortion
 * GxAxisFace.lv2:electric_plug: - Based on the [Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php)&ast; fuzz
@@ -40,7 +41,9 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxSVT.lv2:electric_plug: - Based on the [Ampeg SVT-CL Bass Head](https://ampeg.com/products/classic/svtcl/)&ast; 
 * GxVmk2.lv2 - Based on Vox MKII&ast; solid state preamp of the late 60s
 * GxUvox720k - Based on [Univox 720k](http://www.vintageunivox.com/amps/uniamp.html) keyboard amp from 1978
-* GxCreamMachine - Based on different circuits &ast; Poweramp
+* GxCreamMachine:electric_plug: - Based on different circuits &ast; Poweramp
+* GxEpic.lv2:electric_plug: - Based on [Valve Junior](https://en.wikipedia.org/wiki/Epiphone_Valve_Junior)&ast;
+* GxSupersonic.lv2:electric_plug: - Based on different circuits &ast; Poweramp
 
 #### Other
 * GxQuack.lv2:electric_plug: - Autowah
@@ -141,3 +144,9 @@ dpkg-buildpackage -rfakeroot -uc -us -b
 ![GxValveCaster](https://raw.githubusercontent.com/brummer10/GxValveCaster.lv2/master/GxValveCaster.png)
 ###### GxBoobTube.lv2
 ![GxBoobTube](https://raw.githubusercontent.com/brummer10/GxBoobTube.lv2/master/GxBoobTube.png)
+###### GxShakaTube.lv2
+![GxShakaTube](https://raw.githubusercontent.com/brummer10/GxShakaTube.lv2/master/GxShakaTube.png)
+###### GxEpic.lv2
+![GxEpic](https://raw.githubusercontent.com/brummer10/GxEpic.lv2/master/GxEpic.png)
+###### GxSupersonic.lv2
+![GxSupersonic](https://raw.githubusercontent.com/brummer10/GxSupersonic.lv2/master/GxSupersonic.png)
