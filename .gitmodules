@@ -91,3 +91,12 @@
 [submodule "GxValveCaster.lv2"]
 	path = GxValveCaster.lv2
 	url = https://github.com/brummer10/GxValveCaster.lv2
+[submodule "GxSupersonic.lv2"]
+	path = GxSupersonic.lv2
+	url = https://github.com/brummer10/GxSupersonic.lv2
+[submodule "GxEpic.lv2"]
+	path = GxEpic.lv2
+	url = https://github.com/brummer10/GxEpic.lv2
+[submodule "GxShakaTube.lv2"]
+	path = GxShakaTube.lv2
+	url = https://github.com/brummer10/GxShakaTube.lv2
