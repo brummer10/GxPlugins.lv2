@@ -100,3 +100,9 @@
 [submodule "GxShakaTube.lv2"]
 	path = GxShakaTube.lv2
 	url = https://github.com/brummer10/GxShakaTube.lv2
+[submodule "GxBaJaTubeDriver.lv2"]
+	path = GxBaJaTubeDriver.lv2
+	url = https://github.com/brummer10/GxBaJaTubeDriver.lv2
+[submodule "GxUltraCab.lv2"]
+	path = GxUltraCab.lv2
+	url = https://github.com/brummer10/GxUltraCab.lv2

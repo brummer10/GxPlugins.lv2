@@ -17,6 +17,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxValveCaster.lv2:electric_plug: - Based on the [Valve Caster](http://www.hgamps.com/valvecaster-tube-effect/)&ast;
 * GxBoobTube.lv2:electric_plug: - Based on the [Boob Tube](http://juansolo.mooo.com/stompage/btbuild.html)&ast;
 * GxShakaTube.lv2:electric_plug: - Based on the [ShakaTube](https://www.diystompboxes.com/pedals/schems/shakatube.gif)&ast;
+* GxBaJaTubeDriver.lv2:electric_plug: - Based on the [BaJaTubeDriver](http://revolutiondeux.blogspot.com/2012/04/dean-markley-overlord-to-b-k-butler.html)&ast;
 
 #### Fuzz/Distortion
 * GxAxisFace.lv2:electric_plug: - Based on the [Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php)&ast; fuzz
@@ -48,6 +49,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 #### Other
 * GxQuack.lv2:electric_plug: - Autowah
 * GxSlowGear.lv2 - Based on the [Boss Gx SlowGear](http://www.bossarea.com/boss-sg-1-slow-gear/)&ast;, attack-smoothing, auto-swelling pedal of the early 80s
+* GxUltraCab.lv2:electric_plug: - Cabinet simulator pedal
 
 ###### Build and installation
 
