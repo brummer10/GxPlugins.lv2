@@ -1,13 +1,14 @@
 Source: gxplugins
-Section: unknown
+Section: sound
 Priority: optional
 Maintainer: hermann <brummer@web.de>
-Build-Depends: debhelper, libc6 , libcairo2 , libx11-6, lv2-dev
+Build-Depends: debhelper, libc6 , libcairo2-dev , libx11-dev, lv2-dev
 Standards-Version: 3.9.8
-Homepage: <https://github.com/brummer10/GxPlugins.lv2>
+Homepage: https://github.com/brummer10/GxPlugins.lv2
 
 Package: gxplugins
+Provides: lv2-plugin
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <A set of extra lv2 plugins from the guitarix project.>
- <A set of extra lv2 plugins from the guitarix project.>
+Description: A set of extra lv2 plugins from the guitarix project.
+ A set of extra lv2 plugins from the guitarix project.
