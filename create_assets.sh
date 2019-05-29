@@ -16,8 +16,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 # Creates assets for $upstream in the form of
-# ${package_name}-$version.tar.bz2' and moves the file to the current working
-# directory (aka. $(pwd)).
+# ${output_package_name}-$version.tar.gz' and moves the file to the current
+# working directory (aka. $(pwd)).
 # Optionally creates a detached PGP signature for the tarball.
 # Requires a writable /tmp folder.
 
