@@ -44,7 +44,6 @@ clean_sources() {
   cd "${source_dir}/${package_name}"
   find . \( -iname "*.git*" -o \
          -iname "*.clang-format" -o \
-         -iname "*debian" -o \
          -iname "*.travis.yml" -o \
          -iname "*create_assets.sh" \) \
          -exec rm -rfv {} +
