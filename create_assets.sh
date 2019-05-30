@@ -16,8 +16,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 # Creates assets for $upstream in the form of
-# ${output_package_name}_$version.tar.gz' and moves the file to the current
-# working directory (aka. $(pwd)).
+# ${output_package_name}_${version//v}.tar.gz' and moves the file to
+# ${output_dir} (which is one folder above this script).
 # Optionally creates a detached PGP signature for the tarball.
 # Requires a writable /tmp folder.
 
@@ -68,8 +68,8 @@ move_sources() {
 sign_sources() {
   cd "${output_dir}"
   gpg2 --default-key "${signer}" \
-       --output "${output_package_name}-${version//v}.tar.gz.asc" \
-       --detach-sign "${output_package_name}-${version//v}.tar.gz"
+       --output "${output_package_name}_${version//v}.tar.gz.asc" \
+       --detach-sign "${output_package_name}_${version//v}.tar.gz"
 }
 
 cleanup_source_dir() {
@@ -88,7 +88,7 @@ output_package_name="GxPlugins"
 source_dir="/tmp"
 version=$(date "+%Y-%m-%d")
 signer=""
-output_dir=$(get_absolute_path "$0")
+output_dir=$(get_absolute_path "$0")/..
 
 
 if [ ${#@} -gt 0 ]; then
