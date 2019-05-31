@@ -106,3 +106,24 @@
 [submodule "GxUltraCab.lv2"]
 	path = GxUltraCab.lv2
 	url = https://github.com/brummer10/GxUltraCab.lv2
+[submodule "GxTimRay.lv2"]
+	path = GxTimRay.lv2
+	url = https://github.com/brummer10/GxTimRay.lv2
+[submodule "GxLuna.lv2"]
+	path = GxLuna.lv2
+	url = https://github.com/brummer10/GxLuna.lv2
+[submodule "GxSloopyBlue.lv2"]
+	path = GxSloopyBlue.lv2
+	url = https://github.com/brummer10/GxSloopyBlue.lv2
+[submodule "GxEternity.lv2"]
+	path = GxEternity.lv2
+	url = https://github.com/brummer10/GxEternity.lv2
+[submodule "GxBlueAmp.lv2"]
+	path = GxBlueAmp.lv2
+	url = https://github.com/brummer10/GxBlueAmp.lv2
+[submodule "GxPlexi.lv2"]
+	path = GxPlexi.lv2
+	url = https://github.com/brummer10/GxPlexi.lv2
+[submodule "GxClubDrive.lv2"]
+	path = GxClubDrive.lv2
+	url = https://github.com/brummer10/GxClubDrive.lv2

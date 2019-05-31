@@ -18,6 +18,11 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxBoobTube.lv2:electric_plug: - Based on the [Boob Tube](http://juansolo.mooo.com/stompage/btbuild.html)&ast;
 * GxShakaTube.lv2:electric_plug: - Based on the [ShakaTube](https://www.diystompboxes.com/pedals/schems/shakatube.gif)&ast;
 * GxBaJaTubeDriver.lv2:electric_plug: - Based on the [BaJaTubeDriver](http://revolutiondeux.blogspot.com/2012/04/dean-markley-overlord-to-b-k-butler.html)&ast;
+* GxTimRay.lv2:electric_plug: - Based on the [Vemuram Jan Ray](https://www.coda-effects.com/2015/03/vemuram-jan-ray-clone.html)&ast;
+* GxLuna.lv2:electric_plug: - Gnarly overdrive pedal simulation
+* GxSloopyBlue.lv2:electric_plug: - Overdrive pedal simulation
+* GxEternity.lv2:electric_plug: - This low compression overdrive pedal is perfect for any style of music that requires natural sounding overdrive 
+* GxClubDrive.lv2:electric_plug: - Overdrive Pedal Simulation based on a EF86 Pentode Valve Simulation.
 
 #### Fuzz/Distortion
 * GxAxisFace.lv2:electric_plug: - Based on the [Axis Face Silicon](http://fuzzcentral.ssguitar.com/axisface.php)&ast; fuzz
@@ -45,6 +50,8 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxCreamMachine:electric_plug: - Based on different circuits &ast; Poweramp
 * GxEpic.lv2:electric_plug: - Based on [Valve Junior](https://en.wikipedia.org/wiki/Epiphone_Valve_Junior)&ast;
 * GxSupersonic.lv2:electric_plug: - Based on different circuits &ast; Poweramp
+* GxBlueAmp.lv2:electric_plug: - Single - ended head amplifier simulation inspired by late 1950s Fender “Princeton” and “Champ” amplifier designs, it delivers tight bass, clean mids and highs.
+* GxPlexi.lv2:electric_plug: - Power Amp simulation  &ast; Poweramp
 
 #### Other
 * GxQuack.lv2:electric_plug: - Autowah
@@ -156,3 +163,17 @@ dpkg-buildpackage -rfakeroot -uc -us -b
 ![GxBaJaTubeDriver](https://raw.githubusercontent.com/brummer10/GxBaJaTubeDriver.lv2/master/GxBaJaTubeDriver.png)
 ###### GxUltraCab.lv2
 ![GxUltraCab](https://raw.githubusercontent.com/brummer10/GxUltraCab.lv2/master/GxUltraCab.png)
+###### GxTimRay.lv2
+![GxTimRay](https://raw.githubusercontent.com/brummer10/GxTimRay.lv2/master/GxTimRay.png)
+###### GxLuna.lv2
+![GxLuna](https://raw.githubusercontent.com/brummer10/GxLuna.lv2/master/GxLuna.png)
+###### GxSloopyBlue.lv2
+![GxSloopyBlue](https://raw.githubusercontent.com/brummer10/GxSloopyBlue.lv2/master/GxSloopyBlue.png)
+###### GxEterinty.lv2
+![GxEterinty](https://raw.githubusercontent.com/brummer10/GxEterinty.lv2/master/GxEterinty.png)
+###### GxBlueAmp.lv2
+![GxBlueAmp](https://raw.githubusercontent.com/brummer10/GxBlueAmp.lv2/master/GxBlueAmp.png)
+###### GxPlexi.lv2
+![GxPlexi](https://raw.githubusercontent.com/brummer10/GxPlexi.lv2/master/GxPlexi.png)
+###### GxClubDrive.lv2
+![GxClubDrive](https://raw.githubusercontent.com/brummer10/GxClubDrive.lv2/master/GxClubDrive.png)
