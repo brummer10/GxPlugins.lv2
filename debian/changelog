@@ -1,3 +1,8 @@
+gxplugins (0.7) unstable; urgency=medium
+
+  * add GxBlueAmp GxClubDrive GxEternity GxLuna GxPlexi GxSloopyBlue GxTimRay.
+
+ -- hermann <brummer@org>  Wed, 05 Dec 2018 04:05:53 +0200
 gxplugins (0.6) unstable; urgency=medium
 
   * small bug fixes in X11 based GUI's.
