@@ -21,7 +21,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxTimRay.lv2:electric_plug: - Based on the [Vemuram Jan Ray](https://www.coda-effects.com/2015/03/vemuram-jan-ray-clone.html)&ast;
 * GxLuna.lv2:electric_plug: - Gnarly overdrive pedal simulation
 * GxSloopyBlue.lv2:electric_plug: - Overdrive pedal simulation
-* GxEternity.lv2:electric_plug: - This low compression overdrive pedal is perfect for any style of music that requires natural sounding overdrive 
+* GxEternity.lv2:electric_plug: - Low compression overdrive pedal
 * GxClubDrive.lv2:electric_plug: - Overdrive Pedal Simulation based on a EF86 Pentode Valve Simulation.
 
 #### Fuzz/Distortion
