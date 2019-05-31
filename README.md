@@ -169,8 +169,8 @@ dpkg-buildpackage -rfakeroot -uc -us -b
 ![GxLuna](https://raw.githubusercontent.com/brummer10/GxLuna.lv2/master/GxLuna.png)
 ###### GxSloopyBlue.lv2
 ![GxSloopyBlue](https://raw.githubusercontent.com/brummer10/GxSloopyBlue.lv2/master/GxSloopyBlue.png)
-###### GxEterinty.lv2
-![GxEterinty](https://raw.githubusercontent.com/brummer10/GxEterinty.lv2/master/GxEterinty.png)
+###### GxEternity.lv2
+![GxEternity](https://raw.githubusercontent.com/brummer10/GxEternity.lv2/master/GxEternity.png)
 ###### GxBlueAmp.lv2
 ![GxBlueAmp](https://raw.githubusercontent.com/brummer10/GxBlueAmp.lv2/master/GxBlueAmp.png)
 ###### GxPlexi.lv2
