@@ -8,7 +8,7 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 &ast; = The product names modeled in this software are trademarks of their respective companies that do not endorse and are not associated or affiliated with this simulation. All trademarks are the property of their respective holders.
 
 #### Overdrive
-* GxBottleRocket.lv2:electric_plug: - Based on the [Mesa V1 Bottle Rocket](http://mesaboogie.com/support/out-of-production/v-1-bottle-rocket.html)&ast; tube overdrive
+* GxBottleRocket.lv2:electric_plug: - Based on the [Mesa V1 Bottle Rocket](https://www.mesaboogie.com/support/out-of-production/v-1-bottle-rocket.html)&ast; tube overdrive
 * GxDOP250.lv2:electric_plug: - Based on the [Analog Man DOD OD-250 Yellow Overdrive](https://www.buyanalogman.com/DOD_OD_250_p/am-dod-250.htm)&ast;
 * GxGuvnor.lv2 - Based on the [Marshall "The Guv'nor" Overdrive](https://marshall.com/marshall-amps/products/pedals/gv-2-guvnor-plus)&ast;
 * GxHotBox.lv2:electric_plug: - Based on the [Matchless Hot Box](http://matchlessamplifiers.com/pedals/hotbox-iii)&ast; tube overdrive
