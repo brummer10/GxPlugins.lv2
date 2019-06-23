@@ -36,10 +36,10 @@ GxPlugins.lv2 is a set of extra standalone lv2 plugins designed to compliment th
 * GxSaturator.lv2 - Based on the Joe Satriani-specified [Vox Satchurator](https://www.joesatrianiuniverse.com/gear/vox-js-pedals/satchurator/)&ast; distortion
 * GxSunFace.lv2:electric_plug: - Based on the [Analog Man Sun Face](http://www.analogman.com/fuzzface.htm)&ast; fuzz
 * GxSuperFuzz.lv2 - Based on the [Univox Super-Fuzz](https://en.wikipedia.org/wiki/Univox_Super-Fuzz)&ast;
-* GxToneMachine.lv2 - Based on the [Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm)&ast; fuzz
+* GxToneMachine.lv2 - Based on the [Foxx Tone Machine](https://fuzzcentral.ssguitar.com/foxx.php)&ast; fuzz
 * GxTubeDistortion.lv2:electric_plug: - Generic tube distortion based on http://www.montagar.com/~patj/tubedist.gif
 * GxVintageFuzzMaster.lv2 - Based on the Devi Ever Vintage Fuzz Master&ast;
-* GxVoodoFuzz.lv2 - Based on the [Voodoo Lab SuperFuzz](http://www.voodoolab.com/superfuzz.htm)&ast;. It's basically a Bosstone&ast; circuit, followed by the tone control of the [Foxx Tone Machine](www.cbcpedals.com/product-p/tone-machine.htm)&ast; in parralel with a [Devi Ever Dark Boost](https://reverb.com/p/devi-ever-fx-dark-boost)&ast;.
+* GxVoodoFuzz.lv2 - Based on the [Voodoo Lab SuperFuzz](http://www.voodoolab.com/superfuzz.htm)&ast;. It's basically a Bosstone&ast; circuit, followed by the tone control of the [Foxx Tone Machine](https://fuzzcentral.ssguitar.com/foxx.php)&ast; in parralel with a [Devi Ever Dark Boost](https://reverb.com/p/devi-ever-fx-dark-boost)&ast;.
 
 #### Amplifiers
 * GxMicroAmp.lv2:electric_plug: - A simple booster 
