@@ -1,0 +1,22 @@
+name: build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: submodule update
+      run: git submodule init && update
+    - name: install lv2
+      run: |
+        sudo apt-get install lv2-dev
+    -name: install fakeroot
+      run: |
+        sudo apt-get install fakeroot
+    - name: build deb
+      run: dpkg-buildpackage -rfakeroot -uc -us -b
+  
