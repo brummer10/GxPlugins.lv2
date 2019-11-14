@@ -13,8 +13,7 @@ jobs:
       run: git submodule update --init
     - name: install lv2
       run: |
-        sudo apt-get install lv2-dev
-        sudo apt-get install fakeroot
+        sudo apt-get install lv2-dev debhelper fakeroot
     - name: build deb
       run: dpkg-buildpackage -rfakeroot -uc -us -b
   
