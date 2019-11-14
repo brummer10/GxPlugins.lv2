@@ -14,8 +14,6 @@ jobs:
     - name: install lv2
       run: |
         sudo apt-get install lv2-dev
-    -name: install fakeroot
-      run: |
         sudo apt-get install fakeroot
     - name: build deb
       run: dpkg-buildpackage -rfakeroot -uc -us -b
