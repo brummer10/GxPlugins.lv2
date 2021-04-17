@@ -1,8 +1,21 @@
+gxplugins (0.9) unstable; urgency=medium
+
+  * Fix issue with ON/OFF toggle buttons.
+
+ -- hermann <brummer@org>  Wed, 17 Apr 2021 19:05:53 +0200
+
+gxplugins (0.8) unstable; urgency=medium
+
+  * add GxBlueAmp GxClubDrive GxEternity GxLuna GxPlexi GxSloopyBlue GxTimRay.
+
+ -- hermann <brummer@org>  Wed, 05 Dec 2018 04:05:53 +0200
+
 gxplugins (0.7) unstable; urgency=medium
 
   * add GxBlueAmp GxClubDrive GxEternity GxLuna GxPlexi GxSloopyBlue GxTimRay.
 
  -- hermann <brummer@org>  Wed, 05 Dec 2018 04:05:53 +0200
+
 gxplugins (0.6) unstable; urgency=medium
 
   * small bug fixes in X11 based GUI's.
