@@ -6,7 +6,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    
+
     steps:
     - uses: actions/checkout@v1
     - name: submodule update
@@ -16,7 +16,7 @@ jobs:
         sudo apt-get install lv2-dev debhelper fakeroot
     - name: build deb
       run: dpkg-buildpackage -rfakeroot -uc -us -b
-  
+
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
