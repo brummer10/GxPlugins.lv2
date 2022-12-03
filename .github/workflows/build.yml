@@ -16,7 +16,6 @@ jobs:
         sudo apt-get install lv2-dev debhelper fakeroot
     - name: build deb
       run: dpkg-buildpackage -rfakeroot -uc -us -b
-
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
@@ -27,13 +26,12 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: true
-
-      - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
+    - name: Upload Release Asset
+      id: upload-release-asset
+      uses: actions/upload-release-asset@v1
+      env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
+      with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: ./gxplugins_0.9_amd64.deb
           asset_name: gxplugins_0.9_amd64.deb
