@@ -88,6 +88,9 @@ You can build a Debian package directly with:
 ```
 dpkg-buildpackage -rfakeroot -uc -us -b
 ```
+or download a prebuild Debian package here:
+
+[gxplugins_0.9_amd64.deb](https://github.com/brummer10/GxPlugins.lv2/releases/download/Latest/gxplugins_0.9_amd64.deb)
 
 ## Images
 
