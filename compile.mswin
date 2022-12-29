@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo Patching Makefiles...
+find -name Makefile | while read MAKEFILE ; do
+  DIR=$(dirname $MAKEFILE)
+  [ "$DIR"x == "."x ] && continue
+  echo checking $MAKEFILE
+  # Create self-contained dynamic libraries with all dependencies statically linked in
+  # (replace -DPIC/-fPIC with -static). Also remove "-Wl,-z" options, which have no effect
+  # on MSWin (and break older MinGW gcc versions).
+  [ -e "${MAKEFILE}.mswin" ] \
+    || sed "s/-DPIC/-static/ ; s/-fPIC// ; s/-Wl,-z,relro,-z,now// ; s/-Wl,-z,noexecstack//" \
+         < "${MAKEFILE}" > "${MAKEFILE}.mswin"
+done
+
+echo Compiling Plugins
+export MAKE="make -f Makefile.mswin"
+make -j mod \
+  && make DESTDIR=$(pwd)/_bin install \
+  && echo Done. Plugins have been copied to $(pwd)/_bin
