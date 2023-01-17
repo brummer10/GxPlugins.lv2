@@ -84,7 +84,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          upload_url: ${{ needs.build.outputs.UPLOAD_URL }}
+          upload_url: ${{ needs.build.outputs.output1 }}
           asset_path: plugin.7z
           asset_name: GxPlugins.lv2-git.7z
           asset_content_type: application      
