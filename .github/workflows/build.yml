@@ -6,7 +6,8 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    outputs:
+      output1: ${{ steps.export_url.outputs.UPLOAD_URL }}
     steps:
     - name: remove tag
       uses: dev-drprasad/delete-tag-and-release@v0.2.0
@@ -45,11 +46,12 @@ jobs:
           asset_content_type: application
     - name: Export url
       id: export_url
-      run: echo "UPLOAD_URL=${{ steps.export_url.outputs.upload_url }}" >> $GITHUB_OUTPUT
+      run: echo "UPLOAD_URL=${{ steps.create_release.outputs.upload_url }}" >> $GITHUB_OUTPUT
 
 
   build-win:
     runs-on: windows-latest
+    needs: build
     defaults:
       run:
         shell: msys2 {0}
@@ -82,7 +84,7 @@ jobs:
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          upload_url: ${{ steps.export_url.outputs.UPLOAD_URL }}
+          upload_url: ${{ needs.build.outputs.UPLOAD_URL }}
           asset_path: plugin.7z
           asset_name: GxPlugins.lv2-git.7z
           asset_content_type: application      
