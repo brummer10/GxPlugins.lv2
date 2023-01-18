@@ -11,13 +11,13 @@ jobs:
 
     steps:
     - name: remove tag
-      uses: dev-drprasad/delete-tag-and-release@v0.2.0
+      uses: dev-drprasad/delete-tag-and-release@master
       with:
         delete_release: false
         tag_name: Latest
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
     - name: submodule update
       run: git submodule update --init
     - name: install lv2
@@ -27,7 +27,7 @@ jobs:
       run: dpkg-buildpackage -rfakeroot -uc -us -b
     - name: Create Release
       id: create_release
-      uses: actions/create-release@v1
+      uses: actions/create-release@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -37,7 +37,7 @@ jobs:
           prerelease: true
     - name: Upload Release Asset
       id: upload-release-asset
-      uses: actions/upload-release-asset@v1
+      uses: actions/upload-release-asset@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
@@ -66,7 +66,7 @@ jobs:
           mingw-w64-x86_64-pkgconf
           pkgconf
           mingw-w64-x86_64-7zip
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
     - name: submodule update
       run: git submodule update --init
     - name: make
@@ -75,7 +75,7 @@ jobs:
       run: mv _bin~/.lv2 _bin~/lv2 ; cd _bin~ ; 7z a -mx9 ../plugin.7z lv2 ; cd ..
     - name: upload
       id: upload-release-asset
-      uses: actions/upload-release-asset@v1
+      uses: actions/upload-release-asset@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
