@@ -4,10 +4,11 @@ on: [push]
 
 jobs:
   build:
+    outputs:
+      upload_url: ${{ steps.create_release.outputs.upload_url }}
 
     runs-on: ubuntu-latest
-    outputs:
-      output1: ${{ steps.export_url.outputs.UPLOAD_URL }}
+
     steps:
     - name: remove tag
       uses: dev-drprasad/delete-tag-and-release@v0.2.0
@@ -44,14 +45,10 @@ jobs:
           asset_path: ../gxplugins_0.9_amd64.deb
           asset_name: gxplugins_0.9_amd64.deb
           asset_content_type: application
-    - name: Export url
-      id: export_url
-      run: echo "UPLOAD_URL=${{ steps.create_release.outputs.upload_url }}" >> $GITHUB_OUTPUT
-
 
   build-win:
-    runs-on: windows-latest
     needs: build
+    runs-on: windows-latest
     defaults:
       run:
         shell: msys2 {0}
@@ -75,16 +72,16 @@ jobs:
     - name: set submodule to HEAD
       run: git submodule foreach git pull origin master
     - name: make
-      run: make && make DESTDIR=$(pwd)/_bin install
+      run: make -j && make DESTDIR=$(pwd)/_bin install
     - name: zip
-      run: mv _bin~/.lv2 _bin~/lv2 ; cd _bin~ ; 7z a ../plugin.7z lv2 ; cd ..
+      run: mv _bin~/.lv2 _bin~/lv2 ; cd _bin~ ; 7z a -mx9 ../plugin.7z lv2 ; cd ..
     - name: upload
       id: upload-release-asset
       uses: actions/upload-release-asset@v1
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-          upload_url: ${{ needs.build.outputs.output1 }}
+          upload_url: ${{ needs.build.outputs.upload_url }}
           asset_path: plugin.7z
           asset_name: GxPlugins.lv2-git.7z
-          asset_content_type: application      
+          asset_content_type: application
