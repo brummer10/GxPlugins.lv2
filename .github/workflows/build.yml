@@ -69,8 +69,6 @@ jobs:
     - uses: actions/checkout@v1
     - name: submodule update
       run: git submodule update --init
-    - name: set submodule to HEAD
-      run: git submodule foreach git pull origin master
     - name: make
       run: make -j && make DESTDIR=$(pwd)/_bin install
     - name: zip
