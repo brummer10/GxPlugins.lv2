@@ -92,6 +92,17 @@ or download a prebuild Debian package here:
 
 [gxplugins_0.9_amd64.deb](https://github.com/brummer10/GxPlugins.lv2/releases/download/Latest/gxplugins_0.9_amd64.deb)
 
+## MS-Windows version (64 bit)
+
+Prebuilt Windows binaries can be downloaded here: [GxPlugins.lv2_0.9_Win64.7z](https://github.com/brummer10/GxPlugins.lv2/releases/download/Latest/GxPlugins.lv2_0.9_Win64.7z)
+
+To install, extract the plugins using [7zip](https://www.7-zip.org) into the directory "%APPDATA%\\LV2\\"
+(e.g. "C:\\Users\\XXX\\AppData\\Roaming\\LV2\\").
+
+Refer to the documentation of your DAW, where it searches for LV2 plugins.
+
+Build instructions for MS-Windows can be found in [README.mswin](README.mswin).
+
 ## Images
 
 ###### GxBottleRocket.lv2
