@@ -71,6 +71,8 @@ jobs:
       run: git submodule update --init
     - name: make
       run: make -j && make DESTDIR=$(pwd)/_bin install
+    - name: add license and readme
+      run: cp LICENSE README.md _bin~/.lv2/
     - name: zip
       run: mv _bin~/.lv2 _bin~/lv2 ; cd _bin~ ; 7z a -mx9 ../plugin.7z lv2 ; cd ..
     - name: upload
@@ -81,5 +83,5 @@ jobs:
       with:
           upload_url: ${{ needs.build.outputs.upload_url }}
           asset_path: plugin.7z
-          asset_name: GxPlugins.lv2-git.7z
+          asset_name: GxPlugins.lv2_0.9_Win64.7z
           asset_content_type: application
