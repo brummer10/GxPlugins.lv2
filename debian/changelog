@@ -1,3 +1,9 @@
+gxplugins (1.0) unstable; urgency=medium
+
+  * restructured, support for mswin
+
+ -- thorsten <info@netztorte.de>  Thu, 19 Jan 2023 07:21:04 +0100
+
 gxplugins (0.9) unstable; urgency=medium
 
   * Fix issue with ON/OFF toggle buttons.
