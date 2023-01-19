@@ -20,6 +20,8 @@ jobs:
     - uses: actions/checkout@master
     - name: submodule update
       run: git submodule update --init
+    - name: create source package
+      run: tar -C .. -cjf ../GxPlugins.tar.bz2 $(basename $(pwd))
     - name: install lv2
       run: |
         sudo apt-get install lv2-dev debhelper fakeroot
@@ -35,15 +37,25 @@ jobs:
           release_name: Release latest
           draft: false
           prerelease: true
-    - name: Upload Release Asset
-      id: upload-release-asset
+    - name: Upload Release Asset (Source code)
+      id: upload-release-asset-src
       uses: actions/upload-release-asset@master
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ../gxplugins_0.9_amd64.deb
-          asset_name: gxplugins_0.9_amd64.deb
+          asset_path: ../GxPlugins.tar.bz2
+          asset_name: gxplugins_1.0_src.tar.bz2
+          asset_content_type: application
+    - name: Upload Release Asset (Debian package)
+      id: upload-release-asset-deb
+      uses: actions/upload-release-asset@master
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ../gxplugins_1.0_amd64.deb
+          asset_name: gxplugins_1.0_amd64.deb
           asset_content_type: application
 
   build-win:
@@ -83,5 +95,5 @@ jobs:
       with:
           upload_url: ${{ needs.build.outputs.upload_url }}
           asset_path: plugin.7z
-          asset_name: GxPlugins.lv2_0.9_Win64.7z
+          asset_name: gxplugins_1.0_win64.7z
           asset_content_type: application
