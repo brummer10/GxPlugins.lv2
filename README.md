@@ -96,10 +96,10 @@ or download a prebuild Debian package here:
 
 Prebuilt Windows binaries can be downloaded here: [gxplugins_1.0_win64.7z](https://github.com/brummer10/GxPlugins.lv2/releases/download/v1.0/gxplugins_1.0_win64.7z)
 
-To install, extract the plugins using [7zip](https://www.7-zip.org) into the directory "%APPDATA%\\LV2\\"
-(e.g. "C:\\Users\\XXX\\AppData\\Roaming\\LV2\\").
-
+To install, extract the plugins using [7zip](https://www.7-zip.org) into the directory "%APPDATA%\\LV2\\" (e.g. "C:\\Users\\XXX\\AppData\\Roaming\\LV2\\").\
 Refer to the documentation of your DAW, where it searches for LV2 plugins.
+
+If your DAW doesn't support LV2 yet, you can use [Carla](https://kx.studio/Applications:Carla) as an adapter to plug LV2s into any VST capable DAW (or just run it standalone). Even track automation is supported and it's free software as well.
 
 Build instructions for MS-Windows can be found in [README.mswin](README.mswin).
 
